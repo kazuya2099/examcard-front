@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/product-manage-site-for-hands-on",
+            "outputPath": "dist/examcard-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -74,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "product-manage-site-for-hands-on:build"
+            "browserTarget": "examcard-front"
           },
           "configurations": {
             "production": {
-              "browserTarget": "product-manage-site-for-hands-on:build:production"
+              "browserTarget": "examcard-front:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "product-manage-site-for-hands-on:build"
+            "browserTarget": "examcard-front"
           }
         },
         "test": {

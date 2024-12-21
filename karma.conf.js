@@ -19,7 +19,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/product-manage-site-for-hands-on'),
+      dir: require('path').join(__dirname, './coverage/examcard-front'),
       subdir: '.',
       reporters: [
         { type: 'html' },
